@@ -1,0 +1,1 @@
+seq 41 | xargs -i timeout 0.1 ziptool archive.zip cat "{}" | grep UMASS

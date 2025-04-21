@@ -1,0 +1,1 @@
+clang -shared -o switch.dll switch.s -Xlinker /export:special

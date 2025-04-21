@@ -1,0 +1,1 @@
+clang -o license.exe license.cpp -std=c++2c -Wall -Wextra -fno-exceptions -fno-rtti -fvisibility=hidden -Xlinker "/OPT:REF,ICF" -Xlinker /INCREMENTAL:NO -D_CRT_SECURE_NO_WARNINGS -O2 -march=x86-64-v3 -fno-unroll-loops switch.s -Xlinker /LARGEADDRESSAWARE:NO

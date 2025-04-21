@@ -1,0 +1,1 @@
+0..41 | % -Parallel { busybox timeout 0.5 ..\src\ziptool.exe archive.zip cat $_ | sls UMASS }
